@@ -7,8 +7,17 @@ FILES
 
 RUN LOCALLY
 1. Keep the folder structure intact.
-2. Open index.html in a modern web browser.
-3. Internet is needed to load the Google Fonts; the site otherwise works locally.
+2. Install Python 3.8 or newer.
+3. In a terminal, change into this folder and run: python server.py
+4. Open http://localhost:8000 in a modern web browser.
+5. No internet connection is needed to view or use the portfolio locally.
+
+BACKEND
+- The contact form sends messages to the Python backend.
+- Messages are validated and saved in data/messages.sqlite3 (created automatically).
+- The database is local to this server; deploy the backend and its persistent database storage together.
+- Set PORTFOLIO_DB_PATH to use a different SQLite file location.
+- Set PORT to choose the listening port; set PORTFOLIO_HOST=0.0.0.0 when hosting behind a web server.
 
 CUSTOMISE
 - Edit text and links in index.html.

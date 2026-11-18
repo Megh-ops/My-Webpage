@@ -6,9 +6,6 @@
   <meta name="theme-color" content="#100d25" />
   <meta name="description" content="The personal portfolio of Meghana Nallamilli — mathematics, computing, projects and curiosities." />
   <title>Meghana Nallamilli — Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <script src="js/script.js" defer></script>
 </head>
@@ -41,7 +38,7 @@
           <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
           <div class="planet"><span>∑</span></div>
           <span class="spark spark-one">✦</span><span class="spark spark-two">✳</span><span class="spark spark-three">·</span>
-          <div class="art-caption">THINK · MAKE · WONDER</div>
+          <div class="art-caption">SONDER · PONDER · WONDER</div>
         </div>
         <a class="scroll-cue" href="#education"><span></span> SCROLL TO EXPLORE</a>
       </section>
@@ -70,12 +67,29 @@
       <section class="section interests-section" id="interests">
         <div class="section-heading"><p class="eyebrow">03 / OUTSIDE THE TERMINAL</p><h2>Curiosity is a hobby<span>.</span></h2></div>
         <p class="interests-intro">My interests tend to wander — and that's kind of the point.</p>
-        <div class="interest-cloud"><span>Mathematics <b>✳</b></span><span>Music &amp; podcasts <b>♫</b></span><span>Visual novel RPGs <b>◇</b></span><span>Physics <b>↗</b></span><span>Anime <b>✿</b></span><span>Different cultures <b>◎</b></span><span>German <b>Hallo!</b></span><span>Japanese <b>こんにちは</b></span><span>Learning new things <b>＋</b></span></div>
+        <div class="interest-cloud"><span>Mathematics <b>σ²</b></span><span>Music &amp; podcasts <b>♫</b></span><span>Visual novel RPGs <b>◇</b></span><span>Physics <b>↗</b></span><span>Dance <b>𐦂𖨆𐀪𖠋</b></span><span>Different cultures <b>◎</b></span><span>Kung Fu <b>☯</b></span><span>German <b>Hallo!</b></span><span>Japanese <b>こんにちは</b></span><span>Chinese <b>你好</b></span></div>
       </section>
 
       <section class="contact-section" id="contact">
         <div><p class="eyebrow">04 / THE NEXT HELLO</p><h2>Have something<br />interesting in mind<span>?</span></h2><p class="contact-copy">I'm always happy to connect, exchange ideas, or talk about an interesting problem.</p></div>
-        <div class="contact-links"><a href="tel:+919075797799"><span>Mobile</span><b>+91 9075797799</b></a><a href="mailto:meghana2002@outlook.com"><span>Email</span><b>meghana2002@outlook.com ↗</b></a><a href="https://github.com/Megh-ops" target="_blank" rel="noreferrer"><span>GitHub</span><b>Megh-ops ↗</b></a><a href="https://www.linkedin.com/in/meghana-nallamilli" target="_blank" rel="noreferrer"><span>LinkedIn</span><b>Meghana Nallamilli ↗</b></a></div>
+        <div class="contact-panel">
+          <form class="contact-form" id="contact-form">
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="100" required />
+            <label for="contact-email">Email address</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required />
+            <label for="contact-message">Your message</label>
+            <textarea id="contact-message" name="message" rows="4" maxlength="5000" required></textarea>
+            <button class="button button-primary contact-submit" type="submit">Send message <span>↗</span></button>
+            <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
+          </form>
+          <div class="contact-links">
+            <a href="tel:+919075797799"><span>Mobile</span><b>+91 9075797799</b></a>
+            <a href="mailto:meghana2002@outlook.com"><span>Email</span><b>meghana2002@outlook.com ↗</b></a>
+            <a href="https://github.com/Megh-ops" target="_blank" rel="noreferrer"><span>GitHub</span><b>Megh-ops ↗</b></a>
+            <a href="https://www.linkedin.com/in/meghana-nallamilli" target="_blank" rel="noreferrer"><span>LinkedIn</span><b>Meghana Nallamilli ↗</b></a>
+          </div>
+        </div>
       </section>
     </main>
     <footer><a class="wordmark" href="#home">mn<span>.</span></a><p>Made with curiosity · © <span id="year">2026</span> Meghana Nallamilli</p><a class="back-top" href="#home">BACK TO TOP ↑</a></footer>
